@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif !important;
+}
+
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1900px;
+  margin: auto;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(Asserts/back3.jpg);
+  background-color: #7c6b6b;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+}
+.navbar-menu-container {
+  display: none;
+}
+.logo1{
+  color: #e7e2e2;
+  font-size: 1.5rem;
+  margin-left: 40px;
+}
+.logo1 span{
+  color: yellow;
+}
+.navbar-links-container a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.navbar-links-container a :hover{
+  color: rgb(228, 224, 23);
+
+}
+button{
+  border-radius: 30px;
+  border-color: #141313;
+  color: #141313;
+  background-color: #8ddfac;
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  outline: none;
+
+}
+button:hover{
+  background-color: rgb(64, 206, 99);
+}
+
+.home-text-section {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+  
+
+}
+.primary-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #e7e2e2;
+  /* line-height: 5rem; */
+
+}
+.primary-text {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: #6a6a6a;
+
+}
+
