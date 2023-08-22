@@ -1,0 +1,47 @@
+.d-flex{
+  padding:20%;
+}
+.navbar-brand .nav-link{
+  color:whitesmoke;
+}
+.navbar-brand:hover{
+  color:white;
+}
+.nav-link:hover{
+  color:blue;
+}
+.nav-link{
+  color:rgb(253, 253, 255);
+  font-size: 25px;
+  margin:1pxpx;
+  padding: 2px;
+}
+nav{
+  background-color: #646060;
+}
+#home{
+  background-color: rgb(20, 196, 196);
+  width: 100%;
+  height: 100vh;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+#about{
+  background-color: rgb(94, 216, 124);
+  color: azure;
+  width: 100%;
+  height: 100vh;
+  font-size: 50px;
+}
+#career{
+  background-color:rgb(93, 123, 224);
+  color: azure;
+  width: 100%;
+  height: 100vh;
+  font-size:50px;
+}
+#contact{
+  background: rgb(39, 0, 117);
+  color: aliceblue;
+  width: 100%;
+  height: 100vh;
+}
